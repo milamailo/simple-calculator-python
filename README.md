@@ -27,6 +27,7 @@ This application is a simple calculator that provides both CLI and GUI interface
 ### Installation
 
 1. Clone the repository:
+
    HTTPS:
    ```sh
    https://github.com/milamailo/simplePythonCalculator.git
@@ -35,11 +36,11 @@ This application is a simple calculator that provides both CLI and GUI interface
    ```sh
    git@github.com:milamailo/simplePythonCalculator.git
    ```
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    ```sh
    cd python-calculator
    ```
-3. Install the required packages.
+4. Install the required packages.
 
 ## Usage
 
