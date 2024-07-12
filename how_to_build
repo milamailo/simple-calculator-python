@@ -1,0 +1,11 @@
+1. pip install pyinstaller
+2. Add an Exclusion to Windows Defender
+    If you are confident that your script is safe, you can add an exclusion in Windows Defender for your
+    specific .exe file or the entire project directory. Here’s how to add an exclusion:
+    2.1. Open Windows Security (you can search for it in the Start menu).
+    2.2. Click on “Virus & threat protection.”
+    2.3. Under "Virus & threat protection settings," select “Manage settings.”
+    2.4. Scroll down to “Exclusions” and click on “Add or remove exclusions.”
+    2.5. Click on “Add an exclusion,” choose “File” or “Folder,” and then select the .exe file or
+    the folder containing it.
+3. pyinstaller --onefile main.py "your entry point to your app"
