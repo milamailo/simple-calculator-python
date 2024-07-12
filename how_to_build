@@ -8,4 +8,8 @@
     2.4. Scroll down to “Exclusions” and click on “Add or remove exclusions.”
     2.5. Click on “Add an exclusion,” choose “File” or “Folder,” and then select the .exe file or
     the folder containing it.
-3. pyinstaller --onefile main.py "your entry point to your app"
+3.
+    CLI: pyinstaller --onefile main.py "your entry point to your app"
+    GUI: pyinstaller --onefile --noconsole main.py
+         OR
+         pyinstaller --onefile --windowed main.py
